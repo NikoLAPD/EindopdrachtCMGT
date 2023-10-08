@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Tourney:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Martian Mono', monospace;
+}
+
+nav {
+    background-color: black;
+    padding: 5px 150px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 3px solid red;
+}
+nav img {
+    width: 115px;
+    margin-right: auto;
+}
+
+nav a {
+    color: #fca311;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    align-items: center;
+    padding: 5px;
+}
+
+nav a:hover {
+    border: 2px white solid;
+    background-color: #f21b3f;
+    border-radius: 5px;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.footer-info{
+    color: #fca311;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 25px 150px;
+    justify-content: right;
+    align-items: center;
+    gap: 35px;
+    border-top: 3px solid red;
+    flex-direction: row;
+    font-size: 1rem;
+
+}
+footer img {
+    width: 115px;
+    margin-right: auto;
+}
+#fimagetext{
+    margin-right: auto;
+   
+}
+#fimagetext a{
+    color: #fca311;
+    text-decoration: none;
+    align-items: center;
+
+}
+#fimagetext a:hover{
+    text-decoration: none;
+}
+#fsecs{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#fsocial{
+    display: flex;
+    width: 5px;
+}
+#facebooklogo{
+    width: 65px;
+}
+#instalogo{
+    width:65px;
+}
+
+body {
+
+    margin: 0;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2757874.gif&f=1&nofb=1&ipt=8c33e177b8ceb637dd5024b06e5800a14d9253c82cfb02b22ac7fc4439d6c4a0&ipo=images);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.center-container {
+    display: flex;
+    margin: 0 auto;
+    width: 90vw;
+    height: 70vh;
+    flex-direction: column;
+    color: #fca311;
+    max-width: 650px;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+}
+
+.button-info {
+    display: flex;
+    padding: 10px;
+}
+.button-info a{
+    text-decoration: none;
+}
+.button-info a:hover {
+    text-decoration: none;
+    border: 2px white solid;
+    background-color: #f21b3f;
+    border-radius: 5px;
+    
+
+}
+
+.linkbuttons {
+    display: flex;
+    padding: 5%;
+    margin: 15px;
+    color: #fca311;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Tourney:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Martian Mono', monospace;
+}
+
+nav {
+    background-color: black;
+    padding: 5px 150px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 3px solid red;
+}
+
+nav img {
+    width: 115px;
+    margin-right: auto;
+}
+
+nav a {
+    color: #fca311;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    align-items: center;
+    padding: 5px;
+}
+
+nav a:hover {
+    border: 2px white solid;
+    background-color: #f21b3f;
+    border-radius: 5px;
+}
+
+.footer-info{
+    color: #fca311;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 25px 150px;
+    justify-content: right;
+    align-items: center;
+    gap: 35px;
+    border-top: 3px solid red;
+    flex-direction: row;
+    font-size: 1rem;
+
+}
+footer img {
+    width: 115px;
+    margin-right: auto;
+}
+#fimagetext{
+    margin-right: auto;
+   
+}
+#fimagetext a{
+    color: #fca311;
+    text-decoration: none;
+    align-items: center;
+
+}
+#fimagetext a:hover{
+    text-decoration: none;
+}
+#fsecs{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 15px;
+}
+#fsocial{
+    display: flex;
+    width: 5px;
+}
+#facebooklogo{
+    width: 65px;
+}
+#instalogo{
+    width:65px;
+}
+
+
+
+.checked {
+    color: orange;
+    display: flex;
+    flex-direction: row;
+}
+main {
+    padding: 50px 45px;
+}
+
+.frames {
+    display: flex;
+    gap: 55px;
+}
+
+.frames article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 1vw;
+}
+
+.frames article iframe {
+    width: 100%;
+    border-radius: 1vw;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a.button-default {
+    display: block;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #84a98c;
+    background-color: #84a98c;
+    position: relative;
+    
+}
+
+a.button-default:hover {
+    background-color: #FFFFFF;
+    color: #84a98c;
+}
+
+#center-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    background-color:darkgrey;
+
+}
